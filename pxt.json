@@ -1,0 +1,27 @@
+{
+    "name": "打电话",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "cBit": "github:zhuning239/Cbit#a1612bc5be7fc2be0e27c01efbbe281965605d71",
+        "MakerBit-IR-Receiver": "github:1010technologies/pxt-makerbit-ir-receiver#v1.5.14"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
